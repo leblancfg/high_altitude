@@ -1,0 +1,567 @@
+Renaud Trash: Renaud created the group.
+Renaud Trash: http://www.arawr.ca/?page=legal
+Renaud Trash: On pourrais lancer un weather balloon d'un radius de genre 0.85m, si on contrôle la descente avec un parachute
+Renaud Trash: https://www.scientificsales.com/Meteorological-Weather-Sounding-Balloon-s/25.htm
+Louis Leblanc: On la rempli tu avec de l'hydrogène, cause that would be more fun!
+Renaud Trash: USS Hindenberg
+Louis Leblanc: https://en.wikipedia.org/wiki/Lifting_gas
+Renaud Trash: "Hydrogen is extremely flammable. Some countries have banned the use of hydrogen as a lift gas for commercial vehicles but it is allowed for recreational free ballooning in the US, UK and Germany. The Hindenburg disaster is frequently cited as an example of the hydrogen safety risks posed by hydrogen."
+Renaud Trash: Pas mal certain que sa compte comme un explosif
+Renaud Trash: Ammonia
+Louis Leblanc: Oui, c'est crissement dangeureux, c'est flamable dans un mélange de 4 à 75% par volume avec l'air... heureusement y'a pas trop d'énergie à brûler de l'hydrogène
+Louis Leblanc: "Theoretically, an aerostatic vehicle could be made to use a vacuum or partial vacuum. As early as 1670, over a century before the first manned hot-air balloon flight,[2] the Italian monk Francesco Lana de Terzi envisioned a ship with four vacuum spheres.
+
+In a theoretically perfect situation with weightless spheres, a 'vacuum balloon' would have 7% more net lifting force than a hydrogen-filled balloon, and 16% more net lifting force than a helium-filled one. However, because the walls of the balloon must be able to remain rigid without imploding, the balloon is impractical to construct with all known materials. Despite that, sometimes there is discussion on the topic."
+
+Holy shit...
+François Leblanc: LOL
+Renaud Trash: Hahaha. Donc la chose la plus légère sur terre c'est rien
+Louis Leblanc: Oui mais je suppose que ça  ça reste l'éternel problème à faire un contenant en compression https://en.wikipedia.org/wiki/Buckling
+Renaud Trash: Et inventer le bon matériel
+François Leblanc: Ok what
+François Leblanc: LOL
+François Leblanc: Ça reste quand même qu'on pourrait lancer un ballon
+François Leblanc: 😂
+François Leblanc: Moi je serais down!
+François Leblanc: Dans comme... 6 mois?
+François Leblanc: Printemps prochain?
+Renaud Trash: Un RPi après. Pis une coupe d'instruments
+Renaud Trash: Un parachute
+Renaud Trash: Moi jsuis down
+Renaud Trash: Faque on veux mettre quoi dessus? Baromètre, Humidity/Température, GPS, caméra, Power supply?
+Louis Leblanc: Un vieux téléphone ça ferait tu la job?
+Renaud Trash: Pour le gps?
+Renaud Trash: Et la caméra
+Renaud Trash: Sinon un raspi. J'ai une coupe de zero ici
+Louis Leblanc: Ben ya presque tout ce qu'on a besoin deja dessus, gps, camera, cpu, storage...
+Renaud Trash: On pourrais ajouter le reste via usb je pense
+Louis Leblanc: Ouin genre un arduino entre les capteur et le téléphone
+Renaud Trash: Capteurs vers arduino. Qui utilise le mini usb pour writer sur la sd card
+Renaud Trash: https://www.allaboutcircuits.com/projects/communicate-with-your-arduino-through-android/
+Renaud Trash: Tu pensais a un vieux android?
+Renaud Trash: Ou ios
+Louis Leblanc: Je pensais Android juste parce que je me doute que c'est plus facile de plugger un peu n'importe quoi
+Renaud Trash: Yup
+Renaud Trash: BtLByg6j3YobxGIiuW8j7azhoCyJAQAvD_BwE
+Louis Leblanc: j'ai tué mon nexus 4 recement malheureusement
+Renaud Trash: http://www.robotshop.com/ca/en/raspberry-pi-zero-v13-mini-camera.html?gclid=CjwKCAjw5uTMBRAYEiwA5HxQNp_7kzoIV63muqDAKyS0i1XNRYlsB-BtLByg6j3YobxGIiuW8j7azhoCyJAQAvD_BwE
+Renaud Trash: Jpense jen ai quelques un qui traîne nt
+Louis Leblanc: mon ami avec échapé son téléphone et éclater l'écran et j'ai échapé mon téléphone et lui donnant dans ses mains et l'écran a lâché XD
+Renaud Trash: Jai peter lecran d'un mega. Il marche encore. Juste pu le touch screen
+Renaud Trash: Mais une souris usb fair la job
+Louis Leblanc: si non je pense que j'ai un vieux galaxy S3 à valérie qui est encore fonctionnel
+Renaud Trash: Sinon y me manque une cam et un gps pis jpeux le faire avec un pi ou arduino
+Louis Leblanc: lemme check, j'ai peut être un chip GPS
+Renaud Trash: Jai un sensor humidiy/temp. Pi/arduino. Sd cards
+Renaud Trash: 5 megapixel OV5647 sensor
+2592 × 1944 still picture resolution
+Support 1080p30, 720p60 and 640x480p60/90 video record
+Renaud Trash: La cam du pi est quand meme kickass
+Renaud Trash: On peut probablemebt se rendre au top de la stratosphère
+Renaud Trash: Sa serais cool avooir des belles images
+Louis Leblanc: c'est quoi notre payload, je serais curieux de mettre un appareil argentique sur le balon XD
+Renaud Trash: Pas mal sur que c'est en dessous d'une livre le payload a date
+Renaud Trash: Un pi zero cest minuscule
+Renaud Trash: Le plus lourd c'est les batteries surement
+Renaud Trash: 4 AAA je pense pour runner le 5v necessaire quelques heures
+Renaud Trash: Soulever par un ballon de 3m3, je pense qu'on est safe pour au moins 5 lbs
+Renaud Trash: https://www.kijiji.ca/v-appareil-photo-camera/ville-de-montreal/minolta-srt-102-3-objectifs/1291007324?enableSearchNavigationFlag=true
+Louis Leblanc: https://largeformatphotography.wordpress.com/ large format? je sais pas si on pourrait avoir du film couleur. Genre tout le payload serait la caméra et elle prend sa photo par la tension dans les cordes du parachute
+Renaud Trash: Sure. La seule chose qui me vien en tête c'est le temps d'exposition
+Louis Leblanc: ouin je sais pas combien de lumière il y a en haut là...
+Renaud Trash: Oublie pas que si le parachute est activé, c'est que le payload est en free fall
+Louis Leblanc: ouin on voudrait probablement un petit délai pour que les choses se stabilisent
+Renaud Trash: Yeah
+Renaud Trash: C'est pas difficile a programmer
+Renaud Trash: Stun timer
+Louis Leblanc: oui c'est juste que ça va prendre un actuateur electromécanique, y'avait une certaine élegance à un système completement mécanique mais je des doute que ça aille bien fonctioné
+Renaud Trash: Un timer mecanique?
+François Leblanc: Un sablier
+Renaud Trash: Une espece de chaîne avec des gear
+Renaud Trash: Comme enroulé
+François Leblanc: C'est drôle, en mécanique satellitaire c'est souvent le contraire. Si tu peux le faire en software/électrique/magnétique, ça moins de chance de chier à la longue
+Louis Leblanc: ouin ou une minuterie de four et au lieu d'avoir une cloche à la fin t'utilise le mouvement pour
+François Leblanc: On parle d'années en orbite par contre
+Louis Leblanc: mais oui, je pense que le plus simple serait électrique, ça va nous prendre de l'électronique pour retrouver la caméra de toute façon...
+Renaud Trash: GPS
+Renaud Trash: Haaa tu voulais juste une camera comme payload
+Louis Leblanc: ouin genre zero electronique mais ça serait la galère à retrouver
+Renaud Trash: Un altitudometre? Ça existe tu
+Renaud Trash: Un baromètre I guess
+Louis Leblanc: yup barometre
+François Leblanc: GPS a des coordonnées d'altitude
+Louis Leblanc: oui mais ça coupe après une certaine altitude pour des usage civile
+François Leblanc: Oh
+Renaud Trash: Comment on log les données gps sans connection internet?
+Louis Leblanc: storage?
+Renaud Trash: Mais pour retrouver le payload
+Louis Leblanc: on met une carte sim dans le telephone?
+François Leblanc: +1
+Renaud Trash: Navit
+Renaud Trash: Avec gpsd
+François Leblanc: Yoo les dawgs! C'est Pycon Canada 2017 les 18-19 novembre à Montréal!
+François Leblanc: https://2017.pycon.ca
+François Leblanc: J'ai l'intention d'y aller. Si possible payé par la job, mais au pire je prends congé
+François Leblanc: C'est juste 110$ par personne en plus.
+François Leblanc: So laissez-moi savoir si vous êtes intéressés, on peut peut-être s'arranger pour le logement!
+Renaud Trash: Moi sa m'intéresserait
+Renaud Trash: 18 19 c'est samedi dimanche
+François Leblanc: Nice. Y'a aussi les code sprints le 20 et 21
+François Leblanc: Juste un paquet de monde qui hack sur de l'open source
+Renaud Trash: Niice. Moi je peut le 18 19
+Renaud Trash: Pas le lundi mardi
+François Leblanc: Kk. Ben on check ça! Moi j'achète mon billet ajd
+Renaud Trash: Got my ticket as well
+Renaud Trash: Vous allez voir bladerunner quand?
+Louis Leblanc: Avant hier
+Renaud Trash: Dayyuuummm
+Louis Leblanc: Je considererais retourner lol
+Renaud Trash: Tu serait willing quand?
+Louis Leblanc: Excalade toujours ce soir?
+François Leblanc: Hey! À quelle heure vous y allez?
+Renaud Trash: 8ish
+Louis Leblanc: Genre 7.5 pour nous
+Louis Leblanc: On est arrivés!
+Renaud Trash: Je part!
+Renaud Trash: https://en.m.wikipedia.org/wiki/Neil_Harbisson
+François Leblanc: Jésuse
+François Leblanc: Un app pour mobile: OpenEmu pour Chromecast
+François Leblanc: Idée d’app, rather
+François Leblanc: Possibilité de multiplayer
+François Leblanc: Ton phone c’est toncontroleur
+Louis Leblanc: Tu peux dja caster ton ecran avec android...
+Renaud Trash: Pis le fuck avec ça, c'est que c'est pas tout les phones qui sont multipress
+Louis Leblanc: Et je sais pas à quel point tu peux vendre un emulateur - copyrights and shit
+Renaud Trash: Tu peut vendre des emulateurs
+Renaud Trash: Check snes dans app store
+Louis Leblanc: Fair enough
+Renaud Trash: Pis aussi ce qui suck
+Renaud Trash: C'est le contrôle
+Renaud Trash: Tu sens pas les boutons
+Renaud Trash: Faque tu pèse sur n'importe quoi
+Renaud Trash: Aussi des manettes usb sa coûte genre 2$
+Louis Leblanc: J'avoue que ça manque. Ya aussi une assez grande latency avec le chromecast
+Renaud Trash: Si tu met ton app plus cher que ça sa sert à rien
+Louis Leblanc: Ce qui pourrait être cool c'est un jeu pensé specialement pour plusieurs personnes et un chromecast
+Louis Leblanc: Check spyfall qui se joue sur plusieurs telephone. Ya aussi une couple de jeux sur steam ou un ordi host sur la télé et plusieirs jouent avec leur cell
+Louis Leblanc: J'avais joué à un genre de pictionary avec une gang et cetait assez cool
+Renaud Trash: http://emulator.online/
+Renaud Trash: Mais a ce point ci pourquoi chromecast
+Renaud Trash: Un raspi fait la job
+Renaud Trash: Pis tu peut jouer multiplayer online
+Renaud Trash: Mais t'as pas déjà un jeux pictuonnary
+Renaud Trash: Contre du monde en ligne?
+Renaud Trash: http://www.metacritic.com/game/ios/draw-it-push-it
+Renaud Trash: Drette ton idée
+Renaud Trash: Sur ios
+Louis Leblanc: Hahaha parfait
+Renaud Trash: Jmexcuse, jdevrais pas briser t reves
+Louis Leblanc: Lol pas de trouble jpense que ça a quand même du potentiel. Un genre de mario party qui se joue sur des cell
+Louis Leblanc: Qu'est ce que vous faites aujourd'hui, messieurs?
+Renaud Trash: Genital jousting 👍👍👍
+Renaud Trash: Souper de famille
+François Leblanc: Haha
+François Leblanc: Chromecast a cause y’a ben du monde qui en ont, et tlm a un phone
+François Leblanc: C’est le “barrier to entry” le plus bas, genre
+François Leblanc: Escalade en soirée nous!
+Louis Leblanc: Oouh, quelle heure? je pensais y aller
+François Leblanc: Y’a déja Scrabble qui se joue sur Chromecast
+François Leblanc: Mais ouin, latency c’est probablement le deal breaker
+François Leblanc: L’idée c’est un jeu soit party ou multiplayer,
+François Leblanc: Genre, souper de Pacques chez les parents?
+François Leblanc: Dans 3 minutes tu peux jouer à Mario Kart 64, à quatre joeurs
+François Leblanc: Pas besoin de rien d’autre
+Renaud Trash: C'est sur que ça prend un emulateur
+Renaud Trash: Pis 64 c'est probablement pas emulate sur un chromecast
+Renaud Trash: http://emulation.gametechwiki.com/index.php/Nintendo_64_emulators#Emulation_issues
+François Leblanc: Yeah un émulateur, 100%
+Renaud Trash: Jpense qu'on dépassera pas snes/genesis sur chromecast
+Renaud Trash: Pas assez de jus dans le système
+Louis Leblanc: Peux tu rouler du code sur le chromecast ou c'est limité à juste aller chercher un stream video?
+Renaud Trash: Stun browser
+Renaud Trash: JavaScript
+Louis Leblanc: Oh, cool
+François Leblanc: https://play.google.com/store/apps/details?id=com.bubblezapgames.supergnes_lite
+Renaud Trash: ? Un emulateur?
+François Leblanc: Yup, pour Android, avec support pour Chromecast
+François Leblanc: Pas multiplayer je pense, par contre
+Renaud Trash: AireConsole
+Renaud Trash: C'est ça que tu cherche
+Renaud Trash: C'est mon nouveau projet, construire un 486 de pièces de St vincent de paul
+Renaud Trash: J'ai la motherboard et la carte graphique
+Louis Leblanc: Hahaaha nice
+Renaud Trash: Pouvoir jouer à lemmings native
+François Leblanc: haha, nice
+Renaud Trash: Carte graphique, carte de son
+Renaud Trash: 32 Mb de ram
+Louis Leblanc: Ballin'
+François Leblanc: 32MB de RAM? Dang.
+Renaud Trash: Yes
+Renaud Trash: 8 barrettes de 4mb
+Renaud Trash: https://www.diablowiki.net/Diablo_I
+Renaud Trash: Hooo yeah
+François Leblanc: :D
+François Leblanc: Meilleur RPG j'ai jamais joué
+Renaud Trash: J'ai une question de TDD pour vous
+Renaud Trash: admettons que je test une fonction qui me sort une liste de fichiers
+Renaud Trash: est-ce que je devrait tester sur la validité des fichiers (assert os.fileexists) ou sur la validité du data contenu dans la liste (assert isinstance(var1,str))
+Renaud Trash: dans le fond
+Renaud Trash: unit testing c'Est pour checker si ton application fonctionne correctement
+Renaud Trash: tester si le fichier existe vas tester le contenu
+Renaud Trash: pis si le fichier existe pas sa vas faire planter la suite
+Renaud Trash: Merci!
+François Leblanc: https://youtu.be/RAxiiRPHS9k
+Renaud Trash: Thx
+François Leblanc: Oh! Et lui
+François Leblanc: https://youtu.be/yTkzNHF6rMs
+Renaud Trash: Eille, notre weather balloon
+Renaud Trash: On le commence tu
+Louis Leblanc: Never obsolete!
+Renaud Trash: C'est le sticker qui fait la photo, c'est l'innocence des années 2000
+François Leblanc: hahaha
+François Leblanc: vl'à le PDF dont je parlais
+Renaud Trash: Thx
+François Leblanc: pour le weather balloon, damn, ça pourrait être cool préparer ça pour cet été. Il faut, quoi, un weather balloon et un smartphone usagé?
+François Leblanc: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=SSTL+METEOROLOGICAL+BALLOON+SUPPLY+
+Renaud Trash: Yes
+Renaud Trash: Sinon, encore plus simple
+Renaud Trash: Un raspi
+Renaud Trash: Acause un téléphone faut programmer en Java
+François Leblanc: yo si on l'attache à un tiny fil, il peut rester dans les airs longtemps
+François Leblanc: (?)
+Renaud Trash: C'est quoi la question
+François Leblanc: https://en.wikipedia.org/wiki/High-altitude_balloon#BalloonSat
+François Leblanc: la question c'est que le fil est surement trop lourd pour que ce soit possible... hahaha
+Renaud Trash: Jpas sur de te suivre
+Renaud Trash: Un ballon de cette grosseur là peut lever facilement une trentaine de lbs
+Renaud Trash: https://www.adafruit.com/product/746
+Renaud Trash: https://www.raspberrypi.org/blog/new-8-megapixel-camera-board-sale-25/
+Renaud Trash: Un hygrometer / thermometer
+François Leblanc: hmmmm
+François Leblanc: nice
+François Leblanc: nice
+François Leblanc: on devrait parler timelines et argent qu'on est prêts à mettre là-dedans
+François Leblanc: et si Lou est intéressé, of course! :)
+François Leblanc: I like dis!
+Renaud Trash: Pour vrai c'est pas trop cher
+Renaud Trash: Pi j'en ai des nano
+Renaud Trash: Hygrometer j'en ai un
+Renaud Trash: Louis aussi je crois
+Renaud Trash: C'est ballon / cam / gps
+Renaud Trash: Une batterie
+Renaud Trash: Pis un hdd
+Renaud Trash: Pis on run un script python
+François Leblanc: faut pas oublier le prix de l'hélium
+Louis Leblanc: ouin je pense pas que l'helium soit si cher
+Renaud Trash: la limite canadienne pour les ballons c'est 1m de rayon messemble
+Louis Leblanc: je peux checker si je pourais en avoir a travers ma job
+François Leblanc: aaah, cool
+François Leblanc: Je pensais à ça, y’a encore la tank à He dans le sous sol ici
+François Leblanc: Je me demande comment précis le géocodage des images serait. Genre avec les données d’altitude du GPS et du gyroscope d’être capable de dire:
+François Leblanc: Coin gauche supérieur de la photo regarde les coordonnées (47.1346, -138.8367), etc.
+François Leblanc: Après ça tu peux overlay les images sur des cartes
+Renaud Trash: Faudrais que le gyroscope soit calibré avec la caméra
+Renaud Trash: En rabais?
+Louis Leblanc: Non prix régulier
+Louis Leblanc: 252L
+Louis Leblanc: Min 80% He2
+Louis Leblanc: C'est peut être pas assez de 1
+Louis Leblanc: Liters to km lol
+Renaud Trash: Sa reviens a 0.252 m3
+Renaud Trash: Faudrais je regarde
+Renaud Trash: Mais messemble que le max c'est 2m3
+Louis Leblanc: C'est une sphere de genre 0.4m de rayon qui est pas pire mais le balon est pressurié à cause du caoutchouc
+Renaud Trash: 3.5m3
+Louis Leblanc: Ouch
+Renaud Trash: http://www.arawr.ca/?page=legal
+Renaud Trash: On peut le faire plus petit for sure
+Renaud Trash: Je sais pas c'est quoi le lift capacity de 252l d'hélium
+Louis Leblanc: Ça va beaucoup dépende de la pression dans le balon
+Renaud Trash: http://tools.highaltitudescience.com/#
+Renaud Trash: Ça calcul tout pour toi
+Renaud Trash: Vite faite
+Renaud Trash: Avec un ballon de 600g, un payload de 600g, on monte à 31km en 260 minutes
+Renaud Trash: Pour 35l d'hélium
+Renaud Trash: Scuse 46 cubic feet
+Renaud Trash: J'ai mal lu
+Renaud Trash: C'est 1300L
+Renaud Trash: C'est 5 bonmbonnes
+François Leblanc: dang
+Renaud Trash: Mais hee, sont prix est cher
+Renaud Trash: Parce qu'en 2016 le prix du m3 d'hélium était à 3$USD
+Louis Leblanc: Exact, je pense que ça se fait acheter l'hélium et louer la bonbonne
+Renaud Trash: C'est mon guess aussi
+Louis Leblanc: Des places de location de party. Je viens de trouver ottawaspecial events qui loue des bonbonne suffisantes pour 500 ou 800 balons de 10"
+Renaud Trash: Si tu peux avoir une quantité en m3 sa serait the shit
+Louis Leblanc: Ok de ce que je vois, une location c'est genre 75-100$ pour le volume qu'on regarde
+François Leblanc: parf!
+François Leblanc: là faut juste penser à quels instruments on veut strapper dessus
+François Leblanc: Apparemment launcher un Cubesat ça coûte 40k, et 10k à construire
+François Leblanc: Just sayin’ 🤷‍♂️😬
+Renaud Trash: 40k de gaz?
+François Leblanc: 40k de SpaceX
+François Leblanc: https://github.com/OpenDroneMap/OpenDroneMap
+François Leblanc: https://sketchfab.com/models/6b89c055958c4584bcdc374097371300
+Renaud Trash: Nice
+Renaud Trash: J'achète la cam et le GPS aujourd'hui ou demain
+Renaud Trash: Pis on veux tu launcher ça une journée ensoleillée, pour avoir des belles images
+Renaud Trash: Ou une journée de tempête, pour avoir du data intéressant
+Renaud Trash: On veux tu plus des vidéos ou des images
+Renaud Trash: Si on veux des images, on veux une image du plus haut point où on vas s'être rendu
+Renaud Trash: https://www.google.ca/amp/s/www.bbc.com/news/amp/uk-43396008
+Renaud Trash: Faut aussi checker quel grosseur de HDD on as besoin
+Renaud Trash: Si on veux filmer en HD
+Renaud Trash: Vas falloir un pas pire disque dur
+François Leblanc: Ouin. Je me demande comment tu fais les point-clouds. @Louis Leblanc, as-tu déjà entendu parler de ça?
+François Leblanc: https://l.facebook.com/l.php?u=https%3A%2F%2Fsketchfab.com%2Fmodels%2F6b89c055958c4584bcdc374097371300&h=ATNmBSqCXYWy6aDhu3D9UfSQpfz2_HXM9WNAtdeh8W7D5CoT-9d0YDjiuwg2RmoNjRatrggQm7SNOAc2mEtf02SIMBNGvhG0-MNMVpF5pHbJhhZnlw
+Louis Leblanc: J'ai jamais fait de photogrametry, faudrait que je Check
+François Leblanc: you sure did something damn close to it :D
+François Leblanc: nice, le chat de OpenDroneMap est vraiment actif aussi https://gitter.im/OpenDroneMap/OpenDroneMap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+François Leblanc: yo je savais pas que c'est facile de même
+François Leblanc: t'as juste besoin de georeferencer quelques images, pis Bob's your uncle
+Renaud Trash: Nice
+Renaud Trash: Ça peut tu venir de vidéo?
+Renaud Trash: Ou faut que ça soit des images créee par opendronemap
+François Leblanc: le vidéo resterait expérimental...
+François Leblanc: https://github.com/OpenDroneMap/OpenDroneMap/wiki/Reconstruction-from-Video
+François Leblanc: plus souvent qu'autrement, pour cette utilisation-là tu voudrais que ça provienne d'images HD
+Renaud Trash: Yeah, c'est le but
+François Leblanc: https://github.com/merkato/odm_boruszyn_kap
+Renaud Trash: sa a l'air assez simple
+Renaud Trash: je regarde le github et tu peut faire des modeles sans les coordonnées
+Renaud Trash: pis modifier les exifs pour incorporer les coordonnées c'est super simple
+Renaud Trash: faut juste trouver une camera qui fait du 4k
+Renaud Trash: C'est genre 12 megapixel
+Renaud Trash: MT9F002
+Renaud Trash: http://www.arducam.com/
+Renaud Trash: C'Est probablement eux qui faut contacter
+Renaud Trash: allright, j'ai parler avec le gars de ArduCam, et il dit que c'est vraiment difficile de trouver la 14mp, elle est toujours out of stock.
+Renaud Trash: On peut utiliser la 10MP (3872-by-2592-pixel) je crois
+Renaud Trash: Aussi, si on fait ça on a seulement des photos de la terre, on ne pourras pas prendre des photos de l'horizon
+François Leblanc: Das OK
+François Leblanc: Avec le vent et/ou quand le ballon va peter ça va prendre des photos de l’horizon
+François Leblanc: Pis... je sais pas? La Powershot à 170$ est 20Mpx
+François Leblanc: https://www.walmart.ca/en/ip/canon-powershot-elph-190is-hs-digital-camera-black/6000196205353?cmpid=sem_pla_google_en_none_6000196205353_10003200373052940081_176&cmpid=sem_pla_google_en_none_868545286_42591591006_None&gclid=EAIaIQobChMI4IiO4Iru2QIVnrXACh2l4wLYEAQYCCABEgLul_D_BwE
+François Leblanc: Shit celle-là même est 20 Mpx pour 125$ avec shipping
+François Leblanc: https://www.amazon.ca/dp/B00I8BIBCW/ref=as_at?psc=1&slotNum=0&SubscriptionId=AKIAINYWQL7SPW7D7JCA&linkCode=g12&imprToken=S4eYoxTFT7g96LJ132N7hA&creativeASIN=B00I8BIBCW&tag=dotdashca-20&creative=165953&camp=2025
+Renaud Trash: faudrait checker si on peut prendre une photo via software
+François Leblanc: la Sony le fait pas apparemment, mais les Canon oui
+François Leblanc: (This camera may not support tethering or there may be no compatible software at this time. Please check with your camera manufacturer. In this case, the cable below will only work for transferring images.)
+François Leblanc: https://www.digitaltrends.com/photography/camera-firmware-hacks/
+François Leblanc: http://www.overlookhorizon.com/how-to-launch-weather-balloons/cameras/
+François Leblanc: eux aussi recommended des canon powershot avec un firmware hacké
+François Leblanc: https://www.highaltitudescience.com/pages/frequently-asked-questions
+François Leblanc: 2. How long does a flight typically last?
+
+Flights typically last two to three hours.
+François Leblanc: your payload could travel up to 120 km
+François Leblanc: Faut booker la journée gentlemen
+François Leblanc: haha
+François Leblanc: y faut aussi un cell on board pour envoyer les coordonées, pour aller chercher le package quand il revient
+François Leblanc: Et on peut prédire le landing site: http://astra-planner.soton.ac.uk
+Renaud Trash: Un cell onboard? Pourquoi pas juste un gps
+François Leblanc: Faut qu’il soit capable de nous texter les coordonnées de landing
+François Leblanc: https://store.hackaday.com/products/sparkfun-sensor-kit ?"
+Renaud Trash: Nice
+Renaud Trash: Mais y faut absolument un pi ou un arduino
+François Leblanc: Yeah.
+Renaud Trash: Ou les variantes
+François Leblanc: Avez vous déjà entendu parler d’un code retreat?
+François Leblanc: Ou codecation. Tu prends du temps off pour travailler sur de la shit.
+François Leblanc: J’aime beaucoup l’idée, me demande combien de travail ça représente de faire ça pour une gang
+Louis Leblanc: Faire quoi pour une gang?
+François Leblanc: Ben tant qu’à être 2 ou trois, je me demande si ça se fait pas pour une douzaine ou plus
+François Leblanc: Chu sûr y’aurait une demande pour ça
+Louis Leblanc: Avez vous fait le coursera d'Andrew Ng de machine learning par hasard?
+Renaud Trash: Nope
+Renaud Trash: Pour?
+Louis Leblanc: Je pense le commencer haha
+Renaud Trash: Shoot le lien
+Louis Leblanc: https://www.coursera.org/learn/machine-learning
+Renaud Trash: Jvais essayer ça demain
+Renaud Trash: Si j'ai le temps
+Louis Leblanc: Dang, sweet
+Renaud Trash: Hahahaha
+Louis Leblanc: Lol vraiment, je suis impressionné
+Renaud Trash: 'fuck it, I'm fucking tired, I'm hardcoding that shit'
+François Leblanc: Lol
+Renaud Trash: seen on stack overflow today
+Louis Leblanc: Lolll
+François Leblanc: lol
+Renaud Trash: Sérieux, c'est fort Azure
+François Leblanc: j'ai hâte tu me montres ça!
+Renaud Trash: Right click sur ma base de données, publish
+Renaud Trash: Boom, c'est syncer avec la db onliny
+François Leblanc: nice
+Renaud Trash: freeplan, sync avec mon application
+François Leblanc: tu fais un site web, genre?
+Renaud Trash: yes
+François Leblanc: nice
+François Leblanc: site perso, genre?
+Renaud Trash: Un site d'achat / auction en ligne
+François Leblanc: damn son
+François Leblanc: lol
+Renaud Trash: Y'as beaucoup de gens qui transigent des jeux video
+Renaud Trash: rétro
+Renaud Trash: pis la seule plateforme c'est ebay
+Renaud Trash: mais tout est fucking cher sur ebay
+Renaud Trash: parce que les frais de ebay sont rendu exagérés
+Renaud Trash: Les gens font sa sur facebook
+François Leblanc: quand même, la barre est haute :)
+Renaud Trash: mais y'as pas d'outils pour tracker les ventes
+Renaud Trash: Sa vas commencer petit
+François Leblanc: yo, c'est une excellente idée je trouve
+Renaud Trash: c'est plus des outils pour présenter les produits a vendre / auction
+Renaud Trash: créer une communauté
+François Leblanc: si ça pogne tu mets de l'effort, autrement c'est un super bon projet à ajouter à ton portfolio
+Renaud Trash: après un checkera ske sa donne
+Renaud Trash: yes
+François Leblanc: win win
+Renaud Trash: pis garder genre 2% des ventes
+Renaud Trash: so payant un peu
+Renaud Trash: Pis pour vrai, le system de déploiement MVC / AZURE / TSQL est solide
+Renaud Trash: Vous avez déjà utilisé du noSQL
+Renaud Trash: genre redis?
+François Leblanc: Naa, pas encore
+Renaud Trash: J'ai comme le goût de faire fuck SQL pour mon projet, pis all in redis
+François Leblanc: C’est sur une liste de choses à checker “amadné”
+Renaud Trash: ouin
+François Leblanc: Ben de ce que je comprends redis c’est juste un distributed message queue?
+Renaud Trash: C'est aussi une base de données je crois
+François Leblanc: T’as quand même besoin de stocker le data qqpart si tu veux les réutiliser
+François Leblanc: J’entends souvent redis utilisé avec MongoDB, par exemple
+François Leblanc: Aaah, ouin je lis ça. Intéressant!
+Renaud Trash: acause là j'sui tombé sur un problème, pis j'ai aucune idée comment le régler
+Renaud Trash: on s'en parleras, mais la solution me viens pas pentoute
+François Leblanc: Kk, cool!
+François Leblanc: Aaaye, escalade demain, début d’après-midi!
+Renaud Trash: pense pas
+François Leblanc: 🧗‍♂️🧗‍♂️🧗‍♂️
+Renaud Trash: j'prévois ne pas dormir cette nuit
+François Leblanc: Lâche la coke
+Renaud Trash: C'est ma fille qui en fait trop
+Renaud Trash: a dort pu
+François Leblanc: Est-tu malade?
+Renaud Trash: As pas l'air
+Renaud Trash: a dormi 2 heures la nuit passée
+Renaud Trash: elle a réveillé ludo a 5h30
+François Leblanc: Dang
+François Leblanc: Nice!
+François Leblanc: https://www.youtube.com/watch?v=gak6urtRDJk
+François Leblanc: 433CAD pour 1500g weather balloon, inflator, parachute et flight train
+François Leblanc: y'all good for it? va rester frame et l'électronique
+François Leblanc: You created a poll: Is it go time?
+François Leblanc: You voted for "It's go time" in the poll: Is it go time?
+Louis Leblanc: as tu un lien pour le kit?
+François Leblanc: https://www.highaltitudescience.com/products/eagle-pro-near-space-kit
+François Leblanc: j'achète les parts séparés sur le site
+François Leblanc: so pas de frame ni d'électronique
+François Leblanc: 335$ au lieu de 700
+François Leblanc: *820
+Louis Leblanc: est-ce qu'on a besoin de l'inflator si on loue une tank d'helium d'une place qui fait des ballounes, je suposes que ça vient avec un régulateur?
+François Leblanc: word.
+Louis Leblanc: est-ce que le débit est trop lent sur ceux la?
+François Leblanc: dunno
+François Leblanc: à 85$ la gogosse, je pense qu;on peut skipper ça
+François Leblanc: nouveau prix! 350CAD avec shipping
+Louis Leblanc: le flight train c'est quoi?
+François Leblanc: 60 ft of stratospheric flight line with a precision stainless steel ball bearing swivel.
+François Leblanc: 15$
+François Leblanc: "The 600 g Weather Balloon is for those who want to ensure they break 100,000 ft. If this is your first launch, we do not recommend using our 1200 g Weather Balloon."
+François Leblanc: mayyyybe we should do that then, too :D
+Louis Leblanc: oui bonne idée, si on a un tracking system DIY, aller plus bas nous donne une meilleure chance de la trouver :
+Louis Leblanc: :P
+François Leblanc: 233 CAD avec shipping
+Louis Leblanc: je suis pas exactement certain c'est quoi le flight train kit, mais ça a l'air d'être ce qui attache le ballon à l'aéronef, so vaut le 15$ si on a pas besoin de trouver tout sorte d'attaches
+Louis Leblanc: comment est-ce que tu ferme un ballon météo?
+Louis Leblanc: https://www.highaltitudescience.com/pages/tying-off-a-weather-balloon
+Louis Leblanc: got it
+François Leblanc: super
+François Leblanc: soooo, good to go?
+Louis Leblanc: ça marche pour moi, je sais que @Renaud Trash a cherché pas mal là dedans, je sais pas s'il avait une autre option à considérer
+François Leblanc: ou on prend le flight computer avec? la plupart des GPS marchent pas au-dessus de 60kft
+Louis Leblanc: de ce que je lis rapidement, c'est pas tellement difficile d'avoir un GPS unlocked. Par défaut, ça va te barrer pour soit l'altitude ou la vitesse
+François Leblanc: yup
+François Leblanc: juste à garder en tête que le temps que Renaud et moi on peut mettre dans ce projet-là est pas grand...
+François Leblanc: y'a aussi le pi in the sky qui monte au même prix. Je sais pas si c'est comparable par contre
+François Leblanc: https://store.uputronics.com/index.php?route=product/product&path=62&product_id=52
+Louis Leblanc: https://www.adafruit.com/product/746
+Louis Leblanc: apparement testé jusqu'à 40km
+François Leblanc: vendu!
+François Leblanc: so dès que Renaud tu me donnes le OK, j'achète la balloune 600g, le fil à 15$ pis le parachute
+François Leblanc: on achetera l'électronique ailleurs
+Renaud Trash: Yo, jcheck toute ça tantôt, jsuis à la ferme experimental
+Renaud Trash: Jvous fais confiance
+Renaud Trash: La seule chose que j'aimerai stune caméra
+Renaud Trash: Hd
+Louis Leblanc: ça aurait tu de l'allure dèutiliser un raspberry pi comme ordinateur de bords et l'utiliser pour enregistrer tout notre data?
+Renaud Trash: Oui
+Renaud Trash: J'en ai une coupe
+Renaud Trash: J'ai 1 3b et des zero w
+Renaud Trash: Donc toute wireless
+Renaud Trash: Le 3b a 1g de ram pis un processeur de 3ghz messemble
+Louis Leblanc: parfait, donc le seul gros morceau qui va nous rester à déterminer c'est comment on va localiser l'atérissage
+Renaud Trash: Gps
+Renaud Trash: Adafruit en as
+François Leblanc: yeah
+Louis Leblanc: je pense que les 2 grosses options sont d'utiliser un vieux cell ou de mettre un système de comms sur le raspberry pi. Que ce soit par RF ou plugger une carte SIM ou what ever...
+François Leblanc: j'ai aussi linké à un calculateur en ligne plus haut dans la discussion, pour donner une idée
+François Leblanc: j'ai aussi un vieux-vieux samsung, première génération Android dans le sous-sol
+François Leblanc: ok, so je passe à l'achat
+Louis Leblanc: je pense que j'ai accès à un galaxy s3
+François Leblanc: Your order is confirmed
+François Leblanc: OK! So part one est enclenchée
+Louis Leblanc: au pie je suis certain que par facebook on peut se trouver qq'un qui a un vieux cell à donner/vendre pour 20$
+Louis Leblanc: niiiice
+François Leblanc: reste le frame, la caméra, et l'électronique
+Louis Leblanc: je pense que par défaut je suis sur le frame ? haha
+François Leblanc: m'a essayer de nous popper un google sheet cette semaine question qu'on puisse tracker nos shits là
+François Leblanc: yeah. Je devrais aussi te passer la canisse d'He pour que tu checkes quoi on a besoin pour le hook up à la balloune
+François Leblanc: sinon, veux-tu t'occuper aussi de la vidéographie? genre ta caméra sur un stand pendant les préparatifs
+Louis Leblanc: sure, ça serait cool de documenter le truc
+Louis Leblanc: t'as encore une gopro?
+Renaud Trash: Le frame j'ai lu un truc qui disait de le faire en foam isolant
+François Leblanc: je sais pas si elle marche bien encore, @@Louis Leblanc
+François Leblanc: ok, gtg
+François Leblanc: on se reparle bientôt!
+Renaud Trash: Seul prob avec un cell c'est que c'est Java
+Renaud Trash: Pis sa me tente pas faire du java
+Louis Leblanc: si on l'utilise juste pour trouver notre truc une fois qu'on est attérie, on peut faire rouller genre find my iPhone dessus. Je pense qu'on a assez de payload de disponible pour un phone, on pourrait aussi le faire filmer si on veut
+Louis Leblanc: et garder le rPi pour faire rouler notre propre code/sensors
+Renaud Trash: Avec un GPS on peut tracker tout le long. Et l'altitude
+Renaud Trash: Et on peut écrire le code
+Louis Leblanc: oui c'est juste que ça va nous prendre un système de communication pour recevoir le data GPS et trouver notre sonde
+Renaud Trash: Est ce que le GPS sur un cell marche sans data plan
+François Leblanc: Ok, so le cell c’est juste un beacon pour qu’on le retrouve, pis le GPS d’Adafruit c’est pour enregistrer les vraies informations
+Louis Leblanc: oui c'est ce que je pensais
+Louis Leblanc: non le cell va pas pouvoir communiquer sans sim, je serais pret à sacrifier ma sim, sinon, je suis entrain de regarder les forfaits "pay as you go" pour vior s'il y a de quoi de ben cheap
+Louis Leblanc: https://www.speakout7eleven.ca/plans la sim est 10$ et c'est 10$ pour 100MB de data
+François Leblanc: Peerrf
+Renaud Trash: C'est sûrement possible davoir la position GPS à partir d'une autre source
+Renaud Trash: Sinon via radio?
+Renaud Trash: Un émetteur radio
+Renaud Trash: Qui transfert les donnés
+Louis Leblanc: Yup ça pourrait faire la job, je sais pas c'est que le range ou s'il faut une licence
+Renaud Trash: No idea
+Renaud Trash: https://en.m.wikipedia.org/wiki/Automatic_Packet_Reporting_System
+François Leblanc: niiice
+François Leblanc: https://youtu.be/7ed5JTelBwY?t=4m5s
+Renaud Trash: On peux faire du live tracking
+François Leblanc: It’s space time motherfuckers!
+Louis Leblanc: Wow c'était vite ça
+François Leblanc: Fou tight
+Renaud Trash: Shhiiitt
+Renaud Trash: Vas falloir une coupe de trucs encore
+Renaud Trash: Surement breakout board pour le pi
+Renaud Trash: Un cable pour le connecter
+Renaud Trash: Une breadboard
+François Leblanc: J’ai contacté le gars de http://www.overlookhorizon.com pour sa liste de components.
+François Leblanc: Le plus qu’on peut acheter de pre-made, le plus de temps on a à préparer le “vrai” payload
+Renaud Trash: Oui
+François Leblanc: So, j'ai mis à jour le spreadsheet
+François Leblanc: avec des tâches and shit
+François Leblanc: ça vous va si on migre la conversation à Slack? ça devient dur à backtracker
+Louis Leblanc: Sure
+François Leblanc: ok. Je fais ça ce midi
+François Leblanc: tu peux faire download fb data en plus, je vais pouvoir faire un fichier texte avec et l'upload à Slack
+François Leblanc: kagg-hull.slack.com
