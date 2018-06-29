@@ -106,3 +106,6 @@ venv.bak/
 # Temporary files
 *.swp
 *.swo
+
+# MacOS
+.DS_Store
